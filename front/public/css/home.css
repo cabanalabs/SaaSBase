@@ -1,0 +1,76 @@
+#dashboard, #front_desk, #menu {
+  display: inline-block;
+  width:auto;
+  min-width: 250px;
+  max-width: 450px;
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+#welcome_message {
+  margin: 10px;
+  font-weight: bold;
+}
+
+h1,p {
+  margin: 10px;
+}
+
+h2 {
+  margin: 10px;
+  margin-bottom: 5px;
+}
+
+p {
+  margin-top: 0px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#dashboard {
+  text-align: left;
+}
+
+#front_desk {
+  max-width: 300px;
+  vertical-align: top;
+  text-align: center;
+}
+
+#sign_in_controls, #registration_controls, #welcome_box {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#sign_in_controls input, #registration_controls input {
+  width: 90%;
+  margin-bottom: 5px;
+}
+
+#sign_in_controls button, #registration_controls button {
+  margin-top: 5px;
+}
+
+div.Errors, div.Messages {
+  display: inline-block;
+  font-size: 12px;
+  width: 90%;
+}
+
+div.Errors {
+  color: red;
+}
+
+div.Messages {
+  color: green;
+}
+
+a {
+  color: orange;
+}
+
+a:visited {
+  color: red;
+}

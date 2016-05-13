@@ -1,0 +1,51 @@
+{
+  "name": "SaaSBase",
+  "version": "0.0.1",
+  "description": "User your E-Mail to serve customers over SMS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --use_strict server.js",
+    "dev": "webpack --progress --color --watch --display-error-details & nodemon",
+    "test": "webpack --progress --color --watch & node --use_strict ./api/tests/index.js | faucet"
+  },
+  "author": "Vishal Patel",
+  "license": "ISC",
+  "dependencies": {
+    "aguid": "*",
+    "babel-plugin-syntax-jsx": "*",
+    "babel-preset-es2015": "*",
+    "babel-preset-react": "*",
+    "babel-register": "*",
+    "bcrypt": "*",
+    "eslint": "*",
+    "eslint-config-airbnb": "^8.0.0",
+    "eslint-plugin-import": "^1.6.1",
+    "eslint-plugin-jsx-a11y": "^1.0.4",
+    "eslint-plugin-react": "^5.0.1",
+    "hapi": "*",
+    "hapi-react-views": "^7.0.0",
+    "inert": "*",
+    "isomorphic-fetch": "*",
+    "mailparser": "*",
+    "mandrill-api": "*",
+    "mongodb": "*",
+    "nodemon": "*",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "react-redux": "*",
+    "redux": "*",
+    "redux-thunk": "*",
+    "twilio": "*",
+    "vision": "*",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "devDependencies": {
+    "babel-core": "*",
+    "babel-loader": "*",
+    "faucet": "*",
+    "jsx-loader": "^0.13.2",
+    "nodemon": "*",
+    "tape": "*",
+    "webpack": "*"
+  }
+}
