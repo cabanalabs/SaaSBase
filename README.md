@@ -1,3 +1,5 @@
+Heads up: I have not worked on this in a long time. It may still be of some use to you if you're trying to get some basic ideas on how to configure and organize your code but I wouldn't use this for much more.
+
 To get things going:
 - Install Mongo
 - npm install
